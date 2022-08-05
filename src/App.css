@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Main {
   display: flex;
-  flex-direction: column;
+  align-items: space-between;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.Count {
+  width: 100vw;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e3e25117-f709-423f-ba58-24136b907d0c/dec389o-8e62426c-c935-4627-b30e-5f1c87a020e7.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2UzZTI1MTE3LWY3MDktNDIzZi1iYTU4LTI0MTM2YjkwN2QwY1wvZGVjMzg5by04ZTYyNDI2Yy1jOTM1LTQ2MjctYjMwZS01ZjFjODdhMDIwZTcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Bjdfmz7lEVvXb0CHRdjNb3QrHBL26hNjnvzoTRmxOQ0');
+  background-size: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  box-shadow: 5px 10px rgba(169, 169, 169, 0.505);
+  padding: 10px;
+  border-radius: 50px;
+  background-image: url('https://i.pinimg.com/736x/37/20/77/3720775dc2d492d529eb1a4dc6b7edab--cute-pigs-phone-wallpapers.jpg');
+  
 }
